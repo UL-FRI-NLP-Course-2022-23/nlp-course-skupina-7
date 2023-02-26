@@ -2,7 +2,7 @@
 
 Team members:
  * `MEMBER FULL NAME`, `STUDENT ID`, `STUDENT E-MAIL`
- * `MEMBER FULL NAME`, `STUDENT ID`, `STUDENT E-MAIL`
+ * `Gregor Gabrovšek`, `63180099`, `gg4792@student.uni-lj.si`
  * `MEMBER FULL NAME`, `STUDENT ID`, `STUDENT E-MAIL`
  
 Group public acronym/name: `THINK OF PUBLIC STRING FOR YOUR GROUP`
