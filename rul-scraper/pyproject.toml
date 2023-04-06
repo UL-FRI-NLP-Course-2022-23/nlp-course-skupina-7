@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nlp-rul-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Gregor <33792369+gregorgabrovsek@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "nlp_rul_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.1"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
