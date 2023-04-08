@@ -57,34 +57,25 @@ def translate_text(srclang, tgtlang, text):
   if tgtlang.lower() not in models[srclang.lower()]:
     raise Exception("Invalid target language")
 
-  if isinstance(text, str):
-    text = [text]
-  else:
-    text = item.text
-  text_len = sum(len(_text) for _text in text)
-  if text_len > _TEXT_LEN_LIMIT:
-    raise Exception("Text too long")
-
   text_batch = []
   text_batch_split = []
-  for _text in text:
-    if len(_text) > _TEXT_SPLIT_THRESHOLD:
-      _split_start = len(text_batch)
-      _sent = sent_tokenize(_text)
-      i = 0
-      while i < len(_sent):
-        j = i+1
-        while j < len(_sent) and len(' '.join(_sent[i:j])) < _SPLIT_LEN: j+=1
-        if len(' '.join(_sent[i:j])) > _TEXT_SPLIT_THRESHOLD:
-          _split=findall(rf'(.{{1,{_SPLIT_LEN}}})(?:\s|$)',' '.join(_sent[i:j]))
-          text_batch.extend(_split)
-        else:
-          text_batch.append(' '.join(_sent[i:j]))
-        i = j
-      _split_end = len(text_batch)
-      text_batch_split.append((_split_start,_split_end))
-    else:
-      text_batch.append(_text)
+  if len(text) > _TEXT_SPLIT_THRESHOLD:
+    _split_start = len(text_batch)
+    _sent = sent_tokenize(text)
+    i = 0
+    while i < len(_sent):
+      j = i+1
+      while j < len(_sent) and len(' '.join(_sent[i:j])) < _SPLIT_LEN: j+=1
+      if len(' '.join(_sent[i:j])) > _TEXT_SPLIT_THRESHOLD:
+        _split=findall(rf'(.{{1,{_SPLIT_LEN}}})(?:\s|$)',' '.join(_sent[i:j]))
+        text_batch.extend(_split)
+      else:
+        text_batch.append(' '.join(_sent[i:j]))
+      i = j
+    _split_end = len(text_batch)
+    text_batch_split.append((_split_start,_split_end))
+  else:
+    text_batch.append(text)
 
   logging.debug(f' B: {text_batch}, BS: {text_batch_split}')
 
@@ -106,10 +97,10 @@ def translate_text(srclang, tgtlang, text):
   if _start < len(translation_batch):
     translation.extend(translation_batch[_start:])
 
-  result: TranslateResponse =  ' '.join(translation) if isinstance(text, str) else translation
+  result =  ' '.join(translation)
 
   logging.info(f' R: {result}')
-  logging.debug(f'text_length: {text_len}c, duration: {round(time()-time0,2)}s')
+  logging.debug(f'duration: {round(time()-time0,2)}s')
 
   return result
 
@@ -150,7 +141,15 @@ def initialize():
   return models
 
 if __name__ == "__main__":
-  logging.setLevel(logging.DEBUG)
+  logging.setLevel(logging.ERROR)
   models = initialize()
-
-  print(translate_text("sl", "en", "Danes je lep dan."))
+  
+  en = os.listdir('dataset/en')
+  en2sl = os.listdir('dataset/en2sl')
+  todo = set(en) - set(en2sl)
+  for filename in todo:
+    with open('dataset/en/'+filename, 'r') as ifile:
+      text = ifile.read()
+      translated = translate_text("en", "sl", text)
+      with open('dataset/en2sl/'+filename, 'w') as ofile:
+        ofile.write(translated)
