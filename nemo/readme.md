@@ -7,7 +7,7 @@ mkdir models
 cd models
 ```
 
-Download the pretrained models from clarin.si:
+Download the pretrained models from clarin.si ([link](https://www.clarin.si/repository/xmlui/handle/11356/1736)):
 ```bash
 curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1736{/slen_GEN_nemo-1.2.6.tar.zst,/ensl_GEN_nemo-1.2.6.tar.zst}
 ```
