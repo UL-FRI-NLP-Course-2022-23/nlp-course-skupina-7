@@ -2,7 +2,7 @@ import huggingface_hub
 huggingface_hub.login(token="xxx", add_to_git_credential=True)
 
 from datasets import load_dataset
-paraphrases = load_dataset("gregorgabrovsek/nlp-paraphrasing-27k")
+paraphrases = load_dataset("skupina-7/nlp-paraphrasing-27k")
 
 from transformers import AutoTokenizer
 
