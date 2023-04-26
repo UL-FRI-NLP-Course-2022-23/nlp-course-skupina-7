@@ -44,6 +44,10 @@ input = 'Odvzem prostosti je gotovo eden največjih posegov v človekove pravice
 
 encoding = encode(input)
 
-print('Greedy:', greedy(*encoding))
-print('TopK:', topk(*encoding))
+print('Original: %s\n\n' % input)
+print('Greedy: %s\n\n' % greedy(*encoding))
+listk = topk(*encoding)
+print('TopK:')
+for item in listk:
+	print(item)
 
