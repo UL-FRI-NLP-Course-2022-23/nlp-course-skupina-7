@@ -31,16 +31,16 @@ class ParaphraseDataset(Dataset):
 		for idx in range(len(self.data)):
 			input_text,output_text= self.data.loc[idx, self.inputCol],self.data.loc[idx, self.targetCol]
 
-			input_ = "Paraphrasing Context: %s" % (input_text)
+			input_ = "Slovene context: %s" % (input_text)
 			target = "%s " %(output_text)
 
 			# tokenize inputs
 			tokenized_inputs = self.tokenizer.batch_encode_plus(
-				[input_], max_length=200, pad_to_max_length=True, return_tensors="pt"
+				[input_], max_length=256, pad_to_max_length=True, return_tensors="pt"
 			)
 			# tokenize targets
 			tokenized_targets = self.tokenizer.batch_encode_plus(
-				[target], max_length=20, pad_to_max_length=True, return_tensors="pt"
+				[target], max_length=256, pad_to_max_length=True, return_tensors="pt"
 			)
 
 			self.inputs.append(tokenized_inputs)
