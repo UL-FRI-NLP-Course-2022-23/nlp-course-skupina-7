@@ -9,15 +9,26 @@ grades_file = "grades.json"
 
 from nltk.translate.bleu_score import sentence_bleu
 
+
 def get_top(top_k, original):
-    min_score = 12
+    min_score = 100000
     min_text = ""
+    scores = []
+
     for i in top_k:
-        score = sentence_bleu([original.split()], i.split())
-        if score < min_score:
-            min_score = score
-            min_text = i
-    return min_text
+        bleu_score = sentence_bleu([original.split()], i.split())
+
+        scores.append(bleu_score)
+
+    sorted_scores = sorted(scores, reverse=True)
+    middle = sorted_scores[len(sorted_scores) // 2]
+
+    for i in scores:
+        if middle == i:
+            return top_k[scores.index(i)]
+
+    
+
 
 
 import json
