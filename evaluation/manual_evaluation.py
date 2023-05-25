@@ -1,10 +1,16 @@
 input_file = "mt5-base-rul-pruned_results.json"
 grades_file = "grades.json"
 
+# All grades should be between 1 and 5
+# ustreznost: 1-5 (kako podoben je pomen parafraze)
+# berljivost: 1-5 (kako berljiva je parafraza)
+# enakost: 1-5 (kako enaka sta teksta)
+
+
 from nltk.translate.bleu_score import sentence_bleu
 
 def get_top(top_k, original):
-    min_score = 1
+    min_score = 12
     min_text = ""
     for i in top_k:
         score = sentence_bleu([original.split()], i.split())
@@ -37,10 +43,11 @@ for i in range(len(data)):
     print(paraphrases["greedy"])
     print("")
 
-    vsebina = int(input("Vsebina je enaka: "))
-    berljivost = int(input("Berljivost:    "))
+    ustreznost = int(input("Ustreznost: "))
+    berljivost = int(input("Berljivost: "))
+    enakost = int(input("Enakost: "))
 
-    grade = {"greedy": {"vsebina": vsebina, "berljivost": berljivost}}
+    grade = {"greedy": {"ustreznost": ustreznost, "berljivost": berljivost, "enakost": enakost}}
 
     top = get_top(paraphrases["topk"], paraphrases["input"])
 
@@ -50,16 +57,19 @@ for i in range(len(data)):
     print(top)
     print("")
 
-    vsebina = int(input("Vsebina je enaka: "))
-    berljivost = int(input("Berljivost:    "))
+    ustreznost = int(input("Ustreznost: "))
+    berljivost = int(input("Berljivost: "))
+    enakost = int(input("Enakost: "))
 
-    grade["topk"] = {"vsebina": vsebina, "berljivost": berljivost}
+    grade["topk"] = {"ustreznost": ustreznost, "berljivost": berljivost, "enakost": enakost}
 
     grades[str(i)] = grade
 
     quit_ = input("q to quit, enter to continue:")
     if quit_.startswith("q"):
         break
+
+    print("\n\n")
 
 with open(grades_file, "w", encoding="utf-8") as f:
     json.dump(grades, f, indent=4, ensure_ascii=False)
