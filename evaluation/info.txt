@@ -1,0 +1,7 @@
+manual_evaluation_input
+
+1-10 - so povzetki člankov iz rtvslo.si
+11-20 - deset vrstic so odstavki iz člankov na 24ur.com
+21-25 - izseki člankov na slo-tech.com
+26-30 - izseki foruma na slo-tech.com
+31-40 - izseki iz sl.wikipedia.org
