@@ -1,0 +1,290 @@
+{
+    "0": {
+        "greedy": {
+            "ustreznost": 1,
+            "berljivost": 1,
+            "enakost": 1
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 3
+        }
+    },
+    "1": {
+        "greedy": {
+            "ustreznost": 2,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 4
+        }
+    },
+    "2": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "3": {
+        "greedy": {
+            "ustreznost": 5,
+            "berljivost": 5,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 4
+        }
+    },
+    "4": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 5,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "5": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 1
+        },
+        "topk": {
+            "ustreznost": 4,
+            "berljivost": 3,
+            "enakost": 2
+        }
+    },
+    "6": {
+        "greedy": {
+            "ustreznost": 2,
+            "berljivost": 5,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 5,
+            "enakost": 3
+        }
+    },
+    "7": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 3,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 5
+        }
+    },
+    "8": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 2,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "9": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 4
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 4,
+            "enakost": 3
+        }
+    },
+    "10": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 4,
+            "enakost": 4
+        }
+    },
+    "11": {
+        "greedy": {
+            "ustreznost": 2,
+            "berljivost": 1,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 3,
+            "enakost": 3
+        }
+    },
+    "12": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "13": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 4,
+            "berljivost": 2,
+            "enakost": 4
+        }
+    },
+    "14": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 3,
+            "enakost": 3
+        }
+    },
+    "15": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 5
+        }
+    },
+    "16": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 2,
+            "enakost": 2
+        }
+    },
+    "17": {
+        "greedy": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 4
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 2,
+            "enakost": 4
+        }
+    },
+    "18": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 1
+        },
+        "topk": {
+            "ustreznost": 4,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "19": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 4,
+            "enakost": 3
+        }
+    },
+    "20": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 3
+        }
+    },
+    "21": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 2,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 2,
+            "berljivost": 4,
+            "enakost": 4
+        }
+    },
+    "22": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 1
+        },
+        "topk": {
+            "ustreznost": 3,
+            "berljivost": 3,
+            "enakost": 4
+        }
+    },
+    "23": {
+        "greedy": {
+            "ustreznost": 4,
+            "berljivost": 4,
+            "enakost": 2
+        },
+        "topk": {
+            "ustreznost": 4,
+            "berljivost": 3,
+            "enakost": 5
+        }
+    }
+}
