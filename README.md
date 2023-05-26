@@ -8,6 +8,8 @@ Team members:
 Group public acronym/name: `Skupina-7`
  > This value will be used for publishing marks/scores. It will be known only to you and not you colleagues.
 
+## Final report: [link](NLP_Report_FINAL_REPORT.pdf)
+
 # Running
 For instructions on dataset scraping, check [rul-scraper-alt/](rul-scraper-alt/)
 
