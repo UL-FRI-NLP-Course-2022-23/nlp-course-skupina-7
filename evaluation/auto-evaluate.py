@@ -1,5 +1,5 @@
-input_file = "data/mt5-base-rul-pruned_results.json"
-output_file = "grades/auto_mt5-base-rul-pruned.json"
+input_file = "data/t5-sl-large_results.json"
+output_file = "grades/auto_t5-sl-large.json"
 
 import json
 
