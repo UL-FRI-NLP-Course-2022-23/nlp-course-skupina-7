@@ -18,7 +18,6 @@ def calculate_cosine_similarity(text1, text2):
 
 def calculate_bleu_similarity(text1, text2):
     bleu_score = sentence_bleu([text1.split()], text2.split())
-
     return bleu_score
 
 def calculate_meteor_score(text1, text2):

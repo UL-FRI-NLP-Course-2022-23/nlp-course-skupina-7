@@ -1,0 +1,1442 @@
+[
+    {
+        "greedy": {
+            "cosine": 0.9370675066767853,
+            "bleu": 0.44651754110190417,
+            "meteor": 0.9396226415094339,
+            "bertscore": {
+                "precision": [
+                    0.8646024465560913
+                ],
+                "recall": [
+                    0.8938732147216797
+                ],
+                "f1": [
+                    0.8789942264556885
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8730729553144277,
+            "bleu": 0.32041441988129854,
+            "meteor": 0.8399574889354764,
+            "bertscore": {
+                "precision": [
+                    0.8473497033119202
+                ],
+                "recall": [
+                    0.8709546327590942
+                ],
+                "f1": [
+                    0.8589900135993958
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8548531320145059,
+            "bleu": 0.6811164423192898,
+            "meteor": 0.9111391464765991,
+            "bertscore": {
+                "precision": [
+                    0.8926154971122742
+                ],
+                "recall": [
+                    0.8748444318771362
+                ],
+                "f1": [
+                    0.8836406469345093
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8267283375553857,
+            "bleu": 0.6792072718290334,
+            "meteor": 0.8619627993884831,
+            "bertscore": {
+                "precision": [
+                    0.8983019590377808
+                ],
+                "recall": [
+                    0.8762471675872803
+                ],
+                "f1": [
+                    0.8871374726295471
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.7021548208182777,
+            "bleu": 0.5667303031685912,
+            "meteor": 0.6299868398045296,
+            "bertscore": {
+                "precision": [
+                    0.8968979120254517
+                ],
+                "recall": [
+                    0.8150367736816406
+                ],
+                "f1": [
+                    0.8540101051330566
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.4233333098073086,
+            "bleu": 0.1863621128060851,
+            "meteor": 0.5995639534883722,
+            "bertscore": {
+                "precision": [
+                    0.7856608629226685
+                ],
+                "recall": [
+                    0.8302310705184937
+                ],
+                "f1": [
+                    0.8073312640190125
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9310565121389771,
+            "bleu": 0.732403675717642,
+            "meteor": 0.9435639057890856,
+            "bertscore": {
+                "precision": [
+                    0.9718555212020874
+                ],
+                "recall": [
+                    0.9717156887054443
+                ],
+                "f1": [
+                    0.9717855453491211
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5665731007339552,
+            "bleu": 0.4182108872884494,
+            "meteor": 0.6423044853716556,
+            "bertscore": {
+                "precision": [
+                    0.8802512884140015
+                ],
+                "recall": [
+                    0.8549547791481018
+                ],
+                "f1": [
+                    0.8674185872077942
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9779154775943987,
+            "bleu": 0.6099138358722587,
+            "meteor": 0.9896224431562191,
+            "bertscore": {
+                "precision": [
+                    0.9154757261276245
+                ],
+                "recall": [
+                    0.9272403120994568
+                ],
+                "f1": [
+                    0.9213204979896545
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7056805678744239,
+            "bleu": 0.36742687232104837,
+            "meteor": 0.6635896318752971,
+            "bertscore": {
+                "precision": [
+                    0.8523948788642883
+                ],
+                "recall": [
+                    0.8702523708343506
+                ],
+                "f1": [
+                    0.8612310886383057
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 1.0000000000000002,
+            "bleu": 0.8910279158334014,
+            "meteor": 0.9999872786484836,
+            "bertscore": {
+                "precision": [
+                    0.9715958833694458
+                ],
+                "recall": [
+                    0.9787178039550781
+                ],
+                "f1": [
+                    0.9751438498497009
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7729841263219861,
+            "bleu": 0.510726989403739,
+            "meteor": 0.7570326925165636,
+            "bertscore": {
+                "precision": [
+                    0.9346111416816711
+                ],
+                "recall": [
+                    0.9472843408584595
+                ],
+                "f1": [
+                    0.9409050345420837
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 1.0000000000000002,
+            "bleu": 0.8942255541978509,
+            "meteor": 0.9999715521165226,
+            "bertscore": {
+                "precision": [
+                    0.9875005483627319
+                ],
+                "recall": [
+                    0.9875005483627319
+                ],
+                "f1": [
+                    0.9875005483627319
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7757835796965763,
+            "bleu": 0.5008705932277574,
+            "meteor": 0.7988802756244617,
+            "bertscore": {
+                "precision": [
+                    0.9611349105834961
+                ],
+                "recall": [
+                    0.9426276087760925
+                ],
+                "f1": [
+                    0.9517912864685059
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.91795605415256,
+            "bleu": 0.6742982868435119,
+            "meteor": 0.9454534929919145,
+            "bertscore": {
+                "precision": [
+                    0.9637117385864258
+                ],
+                "recall": [
+                    0.964403510093689
+                ],
+                "f1": [
+                    0.9640575051307678
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.771675380729643,
+            "bleu": 0.42448497327833856,
+            "meteor": 0.8537142857142858,
+            "bertscore": {
+                "precision": [
+                    0.9211592078208923
+                ],
+                "recall": [
+                    0.9256277084350586
+                ],
+                "f1": [
+                    0.9233880043029785
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8337386185518227,
+            "bleu": 0.35949784427176923,
+            "meteor": 0.8635387518708922,
+            "bertscore": {
+                "precision": [
+                    0.8500075936317444
+                ],
+                "recall": [
+                    0.8774213790893555
+                ],
+                "f1": [
+                    0.8634970188140869
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5269349112164385,
+            "bleu": 0.19383866460849772,
+            "meteor": 0.6421446168624076,
+            "bertscore": {
+                "precision": [
+                    0.7760698199272156
+                ],
+                "recall": [
+                    0.847852349281311
+                ],
+                "f1": [
+                    0.8103745579719543
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9011114231649512,
+            "bleu": 0.7832007838937717,
+            "meteor": 0.8948588130904536,
+            "bertscore": {
+                "precision": [
+                    0.9214731454849243
+                ],
+                "recall": [
+                    0.9162901639938354
+                ],
+                "f1": [
+                    0.9188743829727173
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6058154649368965,
+            "bleu": 0.4147533828360907,
+            "meteor": 0.7398101619207148,
+            "bertscore": {
+                "precision": [
+                    0.8872262835502625
+                ],
+                "recall": [
+                    0.885969340801239
+                ],
+                "f1": [
+                    0.8865973353385925
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.926280347361512,
+            "bleu": 0.5241627040646544,
+            "meteor": 0.8341838879939056,
+            "bertscore": {
+                "precision": [
+                    0.8315913677215576
+                ],
+                "recall": [
+                    0.8497530221939087
+                ],
+                "f1": [
+                    0.8405740857124329
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7461611685882569,
+            "bleu": 0.3165445164805452,
+            "meteor": 0.7010580991206911,
+            "bertscore": {
+                "precision": [
+                    0.8545817136764526
+                ],
+                "recall": [
+                    0.883122444152832
+                ],
+                "f1": [
+                    0.8686177134513855
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9440121231298224,
+            "bleu": 0.428509585431391,
+            "meteor": 0.9621773967318886,
+            "bertscore": {
+                "precision": [
+                    0.8873071670532227
+                ],
+                "recall": [
+                    0.893498420715332
+                ],
+                "f1": [
+                    0.8903920650482178
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5410360058630119,
+            "bleu": 0.11350940547542104,
+            "meteor": 0.6656172110717565,
+            "bertscore": {
+                "precision": [
+                    0.7102610468864441
+                ],
+                "recall": [
+                    0.7818461656570435
+                ],
+                "f1": [
+                    0.7443364858627319
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9230134470531983,
+            "bleu": 0.5110448812340578,
+            "meteor": 0.890075832509067,
+            "bertscore": {
+                "precision": [
+                    0.8271329998970032
+                ],
+                "recall": [
+                    0.8621700406074524
+                ],
+                "f1": [
+                    0.844288170337677
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7151028069805577,
+            "bleu": 0.35772484675690264,
+            "meteor": 0.7139234019410976,
+            "bertscore": {
+                "precision": [
+                    0.8318042755126953
+                ],
+                "recall": [
+                    0.8852361440658569
+                ],
+                "f1": [
+                    0.857688844203949
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 1.0000000000000002,
+            "bleu": 0.8499508493439808,
+            "meteor": 0.9999892832647462,
+            "bertscore": {
+                "precision": [
+                    0.9713220000267029
+                ],
+                "recall": [
+                    0.9672780632972717
+                ],
+                "f1": [
+                    0.969295859336853
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7850182673859231,
+            "bleu": 0.2604479149430214,
+            "meteor": 0.742984693877551,
+            "bertscore": {
+                "precision": [
+                    0.887670636177063
+                ],
+                "recall": [
+                    0.8693332076072693
+                ],
+                "f1": [
+                    0.8784062266349792
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.7809903626677931,
+            "bleu": 0.6374991557991926,
+            "meteor": 0.813452924774561,
+            "bertscore": {
+                "precision": [
+                    0.8977605104446411
+                ],
+                "recall": [
+                    0.8999738693237305
+                ],
+                "f1": [
+                    0.898865818977356
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7712709054283106,
+            "bleu": 0.4351778249621627,
+            "meteor": 0.7223905325443787,
+            "bertscore": {
+                "precision": [
+                    0.8792366981506348
+                ],
+                "recall": [
+                    0.8743475079536438
+                ],
+                "f1": [
+                    0.8767853379249573
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.841660955942935,
+            "bleu": 0.6705212536468013,
+            "meteor": 0.872347893357019,
+            "bertscore": {
+                "precision": [
+                    0.9327169060707092
+                ],
+                "recall": [
+                    0.9332625865936279
+                ],
+                "f1": [
+                    0.9329897165298462
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.646312062255726,
+            "bleu": 0.20266000233672668,
+            "meteor": 0.5495783783783783,
+            "bertscore": {
+                "precision": [
+                    0.7657703161239624
+                ],
+                "recall": [
+                    0.8570862412452698
+                ],
+                "f1": [
+                    0.80885910987854
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9170944253522135,
+            "bleu": 0.6045511793385521,
+            "meteor": 0.8404990748355262,
+            "bertscore": {
+                "precision": [
+                    0.9057477712631226
+                ],
+                "recall": [
+                    0.9304403066635132
+                ],
+                "f1": [
+                    0.9179279804229736
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.46105270320474,
+            "bleu": 0.1225147111139728,
+            "meteor": 0.4336734693877551,
+            "bertscore": {
+                "precision": [
+                    0.7465048432350159
+                ],
+                "recall": [
+                    0.8049046993255615
+                ],
+                "f1": [
+                    0.7746056318283081
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8558065160608337,
+            "bleu": 0.3580393823380267,
+            "meteor": 0.8406876264019121,
+            "bertscore": {
+                "precision": [
+                    0.8729113340377808
+                ],
+                "recall": [
+                    0.8827551603317261
+                ],
+                "f1": [
+                    0.8778056502342224
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.59505371079274,
+            "bleu": 0.09766807787022609,
+            "meteor": 0.5126725895157879,
+            "bertscore": {
+                "precision": [
+                    0.7798523306846619
+                ],
+                "recall": [
+                    0.7825546860694885
+                ],
+                "f1": [
+                    0.781201183795929
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9285953495812536,
+            "bleu": 0.6354719482589886,
+            "meteor": 0.9046664561567291,
+            "bertscore": {
+                "precision": [
+                    0.9374714493751526
+                ],
+                "recall": [
+                    0.9429972171783447
+                ],
+                "f1": [
+                    0.9402262568473816
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6277652870198875,
+            "bleu": 0.26871972706804337,
+            "meteor": 0.6403506169909825,
+            "bertscore": {
+                "precision": [
+                    0.8632500767707825
+                ],
+                "recall": [
+                    0.8573302626609802
+                ],
+                "f1": [
+                    0.8602799773216248
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.959754790650117,
+            "bleu": 0.7426555288654179,
+            "meteor": 0.9403230538783451,
+            "bertscore": {
+                "precision": [
+                    0.9833929538726807
+                ],
+                "recall": [
+                    0.9784947633743286
+                ],
+                "f1": [
+                    0.9809377789497375
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6950348895234894,
+            "bleu": 0.3586437828491032,
+            "meteor": 0.6829622849759066,
+            "bertscore": {
+                "precision": [
+                    0.9265229105949402
+                ],
+                "recall": [
+                    0.9246527552604675
+                ],
+                "f1": [
+                    0.9255869388580322
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8661790027520568,
+            "bleu": 0.6446644862948883,
+            "meteor": 0.851963652092314,
+            "bertscore": {
+                "precision": [
+                    0.9097170829772949
+                ],
+                "recall": [
+                    0.914819598197937
+                ],
+                "f1": [
+                    0.9122611880302429
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8119252251320095,
+            "bleu": 0.34288892477989136,
+            "meteor": 0.7125860361320414,
+            "bertscore": {
+                "precision": [
+                    0.9115885496139526
+                ],
+                "recall": [
+                    0.8826136589050293
+                ],
+                "f1": [
+                    0.8968671560287476
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9066575097511764,
+            "bleu": 0.7291930289719647,
+            "meteor": 0.945204724300933,
+            "bertscore": {
+                "precision": [
+                    0.9137506484985352
+                ],
+                "recall": [
+                    0.9169715642929077
+                ],
+                "f1": [
+                    0.9153582453727722
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.4546159512698644,
+            "bleu": 0.19202281163690213,
+            "meteor": 0.47773297580693574,
+            "bertscore": {
+                "precision": [
+                    0.775520384311676
+                ],
+                "recall": [
+                    0.808681845664978
+                ],
+                "f1": [
+                    0.7917540669441223
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 1.0000000000000009,
+            "bleu": 0.7217582207242726,
+            "meteor": 0.9551709632834566,
+            "bertscore": {
+                "precision": [
+                    0.9584866762161255
+                ],
+                "recall": [
+                    0.9595000743865967
+                ],
+                "f1": [
+                    0.9589930772781372
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8444752240961548,
+            "bleu": 0.654833611245888,
+            "meteor": 0.8612754766600921,
+            "bertscore": {
+                "precision": [
+                    0.9529500603675842
+                ],
+                "recall": [
+                    0.9502747058868408
+                ],
+                "f1": [
+                    0.9516105651855469
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8949892464398898,
+            "bleu": 0.5799686311656512,
+            "meteor": 0.9463865111736658,
+            "bertscore": {
+                "precision": [
+                    0.9265629649162292
+                ],
+                "recall": [
+                    0.9415256977081299
+                ],
+                "f1": [
+                    0.9339843392372131
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5275556731044749,
+            "bleu": 0.18063448423364445,
+            "meteor": 0.6382825484764544,
+            "bertscore": {
+                "precision": [
+                    0.7347354888916016
+                ],
+                "recall": [
+                    0.8328801989555359
+                ],
+                "f1": [
+                    0.7807354927062988
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.977793257064724,
+            "bleu": 0.7569120200498599,
+            "meteor": 0.9779339853300734,
+            "bertscore": {
+                "precision": [
+                    0.9780232906341553
+                ],
+                "recall": [
+                    0.9713327884674072
+                ],
+                "f1": [
+                    0.9746665954589844
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7221821360692086,
+            "bleu": 0.3352403704394369,
+            "meteor": 0.6999672491981954,
+            "bertscore": {
+                "precision": [
+                    0.9107120037078857
+                ],
+                "recall": [
+                    0.8731693625450134
+                ],
+                "f1": [
+                    0.8915455937385559
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9207401897413291,
+            "bleu": 0.7539525682541459,
+            "meteor": 0.9156937884324036,
+            "bertscore": {
+                "precision": [
+                    0.9778038263320923
+                ],
+                "recall": [
+                    0.9489273428916931
+                ],
+                "f1": [
+                    0.9631492495536804
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.690808661837406,
+            "bleu": 0.3474271198262192,
+            "meteor": 0.7643501845182519,
+            "bertscore": {
+                "precision": [
+                    0.8259185552597046
+                ],
+                "recall": [
+                    0.9076200723648071
+                ],
+                "f1": [
+                    0.864844024181366
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.765653933531678,
+            "bleu": 0.5589485815177128,
+            "meteor": 0.828125,
+            "bertscore": {
+                "precision": [
+                    0.9082255363464355
+                ],
+                "recall": [
+                    0.9357953071594238
+                ],
+                "f1": [
+                    0.9218043088912964
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6906579940599963,
+            "bleu": 0.5146389412238823,
+            "meteor": 0.7511829652996846,
+            "bertscore": {
+                "precision": [
+                    0.9411802291870117
+                ],
+                "recall": [
+                    0.9256089329719543
+                ],
+                "f1": [
+                    0.9333296418190002
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8417539314503834,
+            "bleu": 0.6083724826248552,
+            "meteor": 0.8369750815362599,
+            "bertscore": {
+                "precision": [
+                    0.8959263563156128
+                ],
+                "recall": [
+                    0.919954776763916
+                ],
+                "f1": [
+                    0.9077816009521484
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6384882026830733,
+            "bleu": 0.44691594901529336,
+            "meteor": 0.6590931539763812,
+            "bertscore": {
+                "precision": [
+                    0.8684980869293213
+                ],
+                "recall": [
+                    0.8654916882514954
+                ],
+                "f1": [
+                    0.8669922947883606
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9704946227939143,
+            "bleu": 0.8302514542392527,
+            "meteor": 0.9716563532631566,
+            "bertscore": {
+                "precision": [
+                    0.985817015171051
+                ],
+                "recall": [
+                    0.9824169874191284
+                ],
+                "f1": [
+                    0.9841140508651733
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5767516583528051,
+            "bleu": 0.39934654462299696,
+            "meteor": 0.6421226771631084,
+            "bertscore": {
+                "precision": [
+                    0.9052298665046692
+                ],
+                "recall": [
+                    0.8883311748504639
+                ],
+                "f1": [
+                    0.896700918674469
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.7758689194006109,
+            "bleu": 0.44145254260626127,
+            "meteor": 0.7685176899043231,
+            "bertscore": {
+                "precision": [
+                    0.8754227161407471
+                ],
+                "recall": [
+                    0.871691107749939
+                ],
+                "f1": [
+                    0.8735529184341431
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6230383415846518,
+            "bleu": 0.19055928582642845,
+            "meteor": 0.6511715665825478,
+            "bertscore": {
+                "precision": [
+                    0.7219403982162476
+                ],
+                "recall": [
+                    0.857050359249115
+                ],
+                "f1": [
+                    0.7837149500846863
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8573024640300593,
+            "bleu": 0.7185671951991824,
+            "meteor": 0.8956450069597115,
+            "bertscore": {
+                "precision": [
+                    0.962967574596405
+                ],
+                "recall": [
+                    0.9693425297737122
+                ],
+                "f1": [
+                    0.9661445617675781
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.795358801242319,
+            "bleu": 0.4689557671170618,
+            "meteor": 0.7707631847760291,
+            "bertscore": {
+                "precision": [
+                    0.9298505783081055
+                ],
+                "recall": [
+                    0.9319711327552795
+                ],
+                "f1": [
+                    0.9309096932411194
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9183050732957683,
+            "bleu": 0.593042966278389,
+            "meteor": 0.9116970926301555,
+            "bertscore": {
+                "precision": [
+                    0.9240015745162964
+                ],
+                "recall": [
+                    0.9390650391578674
+                ],
+                "f1": [
+                    0.9314724206924438
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6165965361713076,
+            "bleu": 0.3061150090700195,
+            "meteor": 0.6613267262884586,
+            "bertscore": {
+                "precision": [
+                    0.9001481533050537
+                ],
+                "recall": [
+                    0.8874518871307373
+                ],
+                "f1": [
+                    0.8937549591064453
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9841916680020618,
+            "bleu": 0.6971671005771995,
+            "meteor": 0.982958803592801,
+            "bertscore": {
+                "precision": [
+                    0.9522004127502441
+                ],
+                "recall": [
+                    0.9614588618278503
+                ],
+                "f1": [
+                    0.9568071961402893
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.6121278935206445,
+            "bleu": 0.30694853954760015,
+            "meteor": 0.7696271141074327,
+            "bertscore": {
+                "precision": [
+                    0.8108709454536438
+                ],
+                "recall": [
+                    0.8814736604690552
+                ],
+                "f1": [
+                    0.8446995615959167
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9489174042596208,
+            "bleu": 0.7563378253711999,
+            "meteor": 0.9358765382672272,
+            "bertscore": {
+                "precision": [
+                    0.9499369859695435
+                ],
+                "recall": [
+                    0.9582264423370361
+                ],
+                "f1": [
+                    0.9540637135505676
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.670737415337885,
+            "bleu": 0.4963850147189537,
+            "meteor": 0.6820335195530726,
+            "bertscore": {
+                "precision": [
+                    0.9173386096954346
+                ],
+                "recall": [
+                    0.9110630750656128
+                ],
+                "f1": [
+                    0.9141900539398193
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9261393471090393,
+            "bleu": 0.8431339019329497,
+            "meteor": 0.9658968032400126,
+            "bertscore": {
+                "precision": [
+                    0.9558263421058655
+                ],
+                "recall": [
+                    0.965288519859314
+                ],
+                "f1": [
+                    0.9605340957641602
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.4949261033039315,
+            "bleu": 0.35465713644381464,
+            "meteor": 0.6105431271967322,
+            "bertscore": {
+                "precision": [
+                    0.9187462329864502
+                ],
+                "recall": [
+                    0.9074283838272095
+                ],
+                "f1": [
+                    0.9130522608757019
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9910438094089642,
+            "bleu": 0.8219511381187486,
+            "meteor": 0.995633233843061,
+            "bertscore": {
+                "precision": [
+                    0.9651695489883423
+                ],
+                "recall": [
+                    0.9684396982192993
+                ],
+                "f1": [
+                    0.9668018817901611
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5399676186839474,
+            "bleu": 0.36049059935941774,
+            "meteor": 0.7343133511518392,
+            "bertscore": {
+                "precision": [
+                    0.8505904078483582
+                ],
+                "recall": [
+                    0.8857999444007874
+                ],
+                "f1": [
+                    0.8678382039070129
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9239535357171462,
+            "bleu": 0.47240284667510807,
+            "meteor": 0.9577777777777778,
+            "bertscore": {
+                "precision": [
+                    0.9532911777496338
+                ],
+                "recall": [
+                    0.9468184113502502
+                ],
+                "f1": [
+                    0.950043797492981
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.5749789728999691,
+            "bleu": 0.33956656086604514,
+            "meteor": 0.7420964692432837,
+            "bertscore": {
+                "precision": [
+                    0.9087050557136536
+                ],
+                "recall": [
+                    0.9096671342849731
+                ],
+                "f1": [
+                    0.9091858267784119
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.8199931749591791,
+            "bleu": 0.592388980641638,
+            "meteor": 0.810032139577594,
+            "bertscore": {
+                "precision": [
+                    0.9118021130561829
+                ],
+                "recall": [
+                    0.9073789119720459
+                ],
+                "f1": [
+                    0.909585177898407
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8156499453806274,
+            "bleu": 0.4652081079898411,
+            "meteor": 0.8429666692433645,
+            "bertscore": {
+                "precision": [
+                    0.8836606740951538
+                ],
+                "recall": [
+                    0.8946573734283447
+                ],
+                "f1": [
+                    0.8891250491142273
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9328378907395182,
+            "bleu": 0.5071960939456881,
+            "meteor": 0.9428440246622065,
+            "bertscore": {
+                "precision": [
+                    0.931923508644104
+                ],
+                "recall": [
+                    0.9395750761032104
+                ],
+                "f1": [
+                    0.9357336163520813
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.8067035435382935,
+            "bleu": 0.3381307292971254,
+            "meteor": 0.8204010284866409,
+            "bertscore": {
+                "precision": [
+                    0.902539849281311
+                ],
+                "recall": [
+                    0.9149696230888367
+                ],
+                "f1": [
+                    0.9087122678756714
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    },
+    {
+        "greedy": {
+            "cosine": 0.9239535357171462,
+            "bleu": 0.9554427922043668,
+            "meteor": 0.9582939508506617,
+            "bertscore": {
+                "precision": [
+                    0.9737690091133118
+                ],
+                "recall": [
+                    0.9784411787986755
+                ],
+                "f1": [
+                    0.9760995507240295
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        },
+        "topk": {
+            "cosine": 0.7491173803562333,
+            "bleu": 0.4014126329706982,
+            "meteor": 0.7544075440754408,
+            "bertscore": {
+                "precision": [
+                    0.8132866024971008
+                ],
+                "recall": [
+                    0.9175775647163391
+                ],
+                "f1": [
+                    0.8622901439666748
+                ],
+                "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.29.2)"
+            }
+        }
+    }
+]
