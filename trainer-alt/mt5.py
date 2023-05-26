@@ -35,8 +35,8 @@ class LoggingCallback(pl.Callback):
 
 args = dict(
 	output_dir="checkpoints", # path to save the checkpoints
-	model_name_or_path='google/mt5-base',
-	tokenizer_name_or_path='google/mt5-base',
+	model_name_or_path='skupina-7/t5-sl-small',
+	tokenizer_name_or_path='cjvt/t5-sl-small',
 	max_seq_length=512,
 	learning_rate=3e-4,
 	weight_decay=0.0,
@@ -44,7 +44,7 @@ args = dict(
 	warmup_steps=0,
 	train_batch_size=8,
 	eval_batch_size=8,
-	num_train_epochs=10,
+	num_train_epochs=3,
 	gradient_accumulation_steps=8,
 	n_gpu=1,
 	early_stop_callback=False,
@@ -60,11 +60,13 @@ checkpoint_callback = pl.callbacks.ModelCheckpoint(
 
 train_params = dict(
 	accumulate_grad_batches=args["gradient_accumulation_steps"],
-	gpus=args["n_gpu"],
+	accelerator='gpu',
+	devices=args["n_gpu"],
 	max_epochs=args["num_train_epochs"],
 	precision= 16 if args["fp_16"] else 32,
 	gradient_clip_val=args["max_grad_norm"],
-	callbacks=[LoggingCallback(), checkpoint_callback]
+	callbacks=[LoggingCallback()],
+	enable_checkpointing=False
 )
 
 print ("Initialize model")

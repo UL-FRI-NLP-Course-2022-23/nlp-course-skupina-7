@@ -9,7 +9,8 @@ from torch.utils.data import DataLoader
 import argparse
 import torch
 
-from ParaphraseDataset import ParaphraseDataset, load_dataset
+from ParaphraseDataset import ParaphraseDataset
+from datasets import load_dataset
 
 class T5FineTuner(pl.LightningModule):
 	def __init__(self, dataset_path, hparams):
@@ -21,7 +22,9 @@ class T5FineTuner(pl.LightningModule):
 		self.model = MT5ForConditionalGeneration.from_pretrained(self._hparams["model_name_or_path"])
 		self.tokenizer = AutoTokenizer.from_pretrained(self._hparams["tokenizer_name_or_path"])
 
-		self.data_train, self.data_val = load_dataset(self.tokenizer, dataset_path)
+		dataset = load_dataset("skupina-7/nlp-paraphrases-20k-pruned")
+		self.data_train = ParaphraseDataset(self.tokenizer, dataset["train"])
+		self.data_val = ParaphraseDataset(self.tokenizer, dataset["test"])
 
 	def is_logger(self):
 		return True

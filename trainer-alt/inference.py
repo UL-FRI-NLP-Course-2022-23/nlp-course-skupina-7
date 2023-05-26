@@ -1,15 +1,15 @@
-from transformers import MT5ForConditionalGeneration, AutoTokenizer
+from transformers import MT5ForConditionalGeneration, AutoTokenizer, T5ForConditionalGeneration
 import torch
 
-model = MT5ForConditionalGeneration.from_pretrained("checkpoints")
-tokenizer = AutoTokenizer.from_pretrained("google/mt5-base")
+model = T5ForConditionalGeneration.from_pretrained("skupina-7/t5-sl-small")
+tokenizer = AutoTokenizer.from_pretrained("cjvt/t5-sl-small")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # print ("device ",device)
 model = model.to(device)
 
 def encode(text):
-	context = 'Slovene context:'
+	context = 'Parafraziraj v slovenščini:'
 	encoding = tokenizer.encode_plus(context + text, return_tensors="pt")
 	input_ids = encoding["input_ids"].to(device)
 	attention_masks = encoding["attention_mask"].to(device)
@@ -40,7 +40,7 @@ def topk(inp_ids, attn_mask):
 	outputs = [tokenizer.decode(out, skip_special_tokens=True, clean_up_tokenization_spaces=True) for out in topkp_output]
 	return [output.strip().capitalize() for output in outputs]
 
-input = 'Odvzem prostosti je gotovo eden največjih posegov v človekove pravice. Pomislimo samo, kako so nekateri trpeli in že izgubljali potrpljenje, ko smo se bili za kratek čas primorani zadrževati v okvirih lastnih občin. Ali ker smo zaradi zaprtja šol in karanten čas preživljali za toplimi stenami lastnih domov, pa je bilo mnogim tako hudo, da so govorili, da "še malo, pa se jim bo zmešalo". Ob tem si skušajmo predstavljati, kako se počuti človek, ki ga iz svobode nenadoma pripeljejo v nekaj kvadratnih metrov veliko sobo, ki postane njegov nov dom – dom, v katerem se bo lahko zadržal tudi več let ali celo desetletij.'
+input = 'Glavni slovenski favorit za visoka mesta na domačem evropskem prvenstvu v veslanju na Bledu Rajko Hrvat je v predtekmovanju lahkih skifov zasedel drugo mesto in bo moral v petek ob 10. uri v repasaž.\n'
 
 encoding = encode(input)
 
