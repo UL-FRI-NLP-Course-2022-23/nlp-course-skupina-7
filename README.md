@@ -10,6 +10,9 @@ Group public acronym/name: `Skupina-7`
 
 ## Final report: [link](NLP_Report_FINAL_REPORT.pdf)
 
+# Models and datasets
+Trained models and prepared datasets are available on [https://huggingface.co/skupina-7](https://huggingface.co/skupina-7).
+
 # Running
 For instructions on dataset scraping, check [rul-scraper-alt/](rul-scraper-alt/)
 
